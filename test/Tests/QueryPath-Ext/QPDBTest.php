@@ -4,14 +4,14 @@
  * @author M Butcher <matt@aleph-null.tv>
  * @license The GNU Lesser GPL (LGPL) or an MIT-like license.
  */
-namespace QueryPath\Tests;
+namespace QueryPathExt\Tests;
 require_once 'PHPUnit/Autoload.php';
 require_once __DIR__ . '/../TestCase.php';
 /*
   require_once 'src/QueryPath/QueryPath.php';
  */
-require_once 'src/QueryPath/Extension/QPDB.php';
-require_once 'src/QueryPath/Extension/QPTPL.php';
+require_once 'src/QPDB.php';
+require_once 'src/QPTPL.php';
 
 use \QueryPath\Extension\QPDB;
 
